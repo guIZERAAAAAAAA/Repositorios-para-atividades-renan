@@ -1,5 +1,2 @@
-# Repositorios-para-atividades-renan
-
-
-
-é para vir fazer as atividades aqui 
+# Repositorios-para-atividades-renan java scipt 
+é para vir fazer as atividades java script aqui 
