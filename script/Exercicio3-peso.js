@@ -1,7 +1,34 @@
 alert("Exercicio 3")
 
-// Peça uma temperatura em graus Celsius e converta para Fahrenheit usando a fórmula.
-//    F = (9 * C + 160) / 
+// Peça o peso de 5 pessoas e calcule 
+// a média desses pesos. Mostre o resultado.
+
+//entrada 
+const peso1 = Number(prompt("digite o peso da pessoa 1: "))
+const peso2 = Number(prompt("digite o peso da pessoa 2: "))
+const peso3 = Number(prompt("digite o peso da pessoa 3: "))
+const peso4 = Number(prompt("digite o peso da pessoa 4: "))
+const peso5 = Number(prompt("digite o peso da pessoa 5: "))
+
+//Processamento 
+// calculo da media 
+const resultado = (peso1 + peso2 + peso3 + peso4 + peso5) / 5 
+
+//saida
+
+alert(resultado)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
