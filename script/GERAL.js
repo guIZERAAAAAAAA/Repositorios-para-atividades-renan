@@ -1,84 +1,84 @@
-//EXERCICIOS 2
+//EXERCICIOS 2n
 function exercicios2 ()  {
     const hora = Number(prompt("digite uma hora: "))
     const valor = Number(prompt("digite um valor por hora: "))
     alert("resultado de "+ hora + " * " + valor + " = " + (hora * valor ))
 }
-const buttonexercicio2 = document.getElementById("exercicio2") 
-buttonexercicio2.addEventListener('click', () => {exercicios2() } ) 
-
-
+const buttonexercicio2 = document.getElementById("exercicio2")
+buttonexercicio2.addEventListener('click', () => {exercicios2() } )
+ 
+ 
 //exercicios3
-
-
+ 
+ 
 function exercicios3 () {
     const peso1 = Number(prompt("digite o peso da pessoa 1: "))
 const peso2 = Number(prompt("digite o peso da pessoa 2: "))
 const peso3 = Number(prompt("digite o peso da pessoa 3: "))
 const peso4 = Number(prompt("digite o peso da pessoa 4: "))
 const peso5 = Number(prompt("digite o peso da pessoa 5: "))
-
-const resultado = (peso1 + peso2 + peso3 + peso4 + peso5) / 5 
-
+ 
+const resultado = (peso1 + peso2 + peso3 + peso4 + peso5) / 5
+ 
 alert(resultado)
-
+ 
 }
-
+ 
 const buttonexercicios3 = document.getElementById("exercicio3")
 buttonexercicios3.addEventListener('click', () => {exercicios3() } )
-
+ 
 //EXERCICIOS 4
-
+ 
 function exercicio4 () {
-//entrada 
+//entrada
 // Peça uma temperatura em graus Celsius e converta para Fahrenheit
 //  usando a fórmula F = (9 * C + 160) / 5
-
+ 
 const numero = Number(prompt("digite o valor em graus celsius e converta para firehint"))
-
+ 
 //saida
 const media = (((9*numero )+ 160) / 5 )
  alert(media)
-
+ 
 }
-
+ 
 const buttonexercicio4 = document.getElementById("exercicio4")
 buttonexercicio4.addEventListener('click', () => {exercicio4() } )
-
-
+ 
+ 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 function exercicio5 () {
     alert("Exercicio 5 ")
-
+ 
 //Peça uma distância em milhas e converta para quilômetros.    (Dica: 1 milha = 1.60934 km)
-
-//entrada 
-
+ 
+//entrada
+ 
 const numero = Number (prompt("digite a quantidade de milhas: "))
-
-const km = numero * 1.60934 
+ 
+const km = numero * 1.60934
 alert("a distancia em milhas é:"+ km )
-
+ 
 }
-
+ 
 const buttonexercicio5 = document.getElementById("exercicio5")
 buttonexercicio5.addEventListener('click', () => {exercicio5() } )
-
+ 
 ////////////////////////////////////////////////////////////////////////////////
 function exercicio6 () {
     alert("exercicio6 ")
-
+ 
 const Number = ( prompt ("Mostre a quantidades de tempo do evento "))
 const hora = dur/3600
 alert("a duração do evento em horas , munitos e segundos é ")
-
+ 
 }
-
+ 
 const buttonexercicio6 = document.getElementById("exercicio6")
 buttonexercicio6.addEventListener('click', () => {exercicio6() } )
-
+ 
 ////////////////////////////////////////////////////////////////
-
+ 
 function exercicio7 () {
     const numero = Number(prompt("digite uma distancia em quilometro"))
 const km = (numero*100000)
@@ -86,12 +86,12 @@ const centímetros = ("digite uma distancia em centometros ")
 const metros = (numero*1000)
 alert("distancia em metros e centimetros é "  +km+" " + metros)
 }
-
+ 
 const buttonexercicio7 = document.getElementById("exercicio7")
 buttonexercicio7.addEventListener('click', () => {exercicio7() } )
-
+ 
 /////////////////////////////////////////////////////////////////////////
-
+ 
 function exercicio8 () {
     const numero = Number(prompt("Digite o numero inteiro"))
 alert(`
@@ -108,7 +108,7 @@ alert(`
     10 x ${numero} = ${numero*10}
     `)
 }
-
+ 
 const buttonexercicio8 = document.getElementById("exercicio8")
 buttonexercicio8.addEventListener('click', () => {exercicio8() } )
 
