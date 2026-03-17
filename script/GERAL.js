@@ -113,18 +113,50 @@ const buttonexercicio8 = document.getElementById("exercicio8")
 buttonexercicio8.addEventListener('click', () => {exercicio8() } )
 
 
+/////////////////////////////////////////////////////////
+function exercicio9 () {
+
+const nota1 = Number(prompt("digite a primeira nota"))
+const nota2 = Number(prompt("digite a segunda nota"))
+const nota3 = Number(prompt("digite a terçeira nota"))
+
+const media = (nota1 + nota2 + nota3) / 3
+console.log(media)
+
+if (media > 6) {
+    alert ("aprovado")
+}else if ( media >= 5) {
+    alert ("Recuperação")
+}else if (media <= 4) {
+    alert ("reprovado")
+}
+}
+
+const buttonexercicio9 = document.getElementById("exercicio9")
+buttonexercicio9.addEventListener('click', () => {exercicio9() } )
 
 
+///////////////////////////////////////////////////////////////////////////
 
+function exercicio10 () {
 
+const sexo = (prompt("digite o sexo H ou M "))
+const altura = Number(prompt("digite uma altura"))
 
+if( sexo ==='H'){
+    alert (72.7*altura ) (- 58)
+}else if (sexo === 'M'){
+    alert(62.1* altura) - 44.7
+}else{
+    alert("erro")
+}
 
+}
 
+const buttonexercicio10 = document.getElementById("exercicio10")
+buttonexercicio10.addEventListener('click', () => {exercicio10() } )
 
-
-
-
-
+///////////////////////////////////////////////////////////////////////
 
 
 
